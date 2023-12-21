@@ -50,3 +50,46 @@ This is Cloud Computing repository for CuacaTani application.
        ```
        gcloud app browse
        ```
+# API Endpoint
+* App Engine Backend:
+  * https://cuacatani.et.r.appspot.com/
+
+# API List
+## User Register
+- URL
+  - /register
+- Method
+  - POST
+- Request body
+  - name (string)
+  - email (string)
+  - password (string)
+- Response
+```
+{
+  "error":false,
+  "message":"Registration successful"
+}
+
+```
+
+## User Login
+- URL
+  - /login
+- Method
+  - POST
+- Request body
+  - email (string)
+  - password (string)
+- Response
+```
+{
+    "error": false,
+    "loginResult": {
+        "email": "example@gmail.com",
+        "username": "john"
+    },
+    "message": "success"
+}
+```
+
