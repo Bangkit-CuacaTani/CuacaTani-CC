@@ -93,3 +93,21 @@ This is Cloud Computing repository for CuacaTani application.
 }
 ```
 
+## List Plants
+- URL
+  - /plants
+- Method
+  - GET
+- Response
+```
+[
+    {"category":"grains","id":"1","image":"https://storage.cloud.google.com/cuacatani.appspot.com/padi-removebg-preview.png","name":"Padi"},
+    {"category":"grains","id":"2","image":"https://storage.cloud.google.com/cuacatani.appspot.com/kacang_hijau-removebg-preview.png","name":"Kacang Hijau"},
+    {"category":"fruit","id":"3","image":"https://storage.cloud.google.com/cuacatani.appspot.com/anggur-removebg-preview.png","name":"Anggur"},
+    {"category":"fruit","id":"4","image":"https://storage.cloud.google.com/cuacatani.appspot.com/apple-removebg-preview.png","name":"Apel"},
+    {"category":"fruit","id":"5","image":"https://storage.cloud.google.com/cuacatani.appspot.com/jeruk-removebg-preview.png","name":"Jeruk"},
+    // ... (data lainnya)
+]
+
+```
+
